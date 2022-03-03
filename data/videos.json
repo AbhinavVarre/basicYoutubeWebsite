@@ -1,0 +1,44 @@
+{
+    "videos": [
+      {
+        "internal_id": 1,
+        "path": "videos/190828_27_SuperTrees_HD_17.mp4",
+        "title": "Nice Trees",
+        "submit_user": "Jay Ramineni",
+        "submit_date": "02/22/2022",
+        "tags": ["Spill", "OSHA"],
+        "num_ratings" : 252,
+        "avg_rating": 4.43
+      },
+      {
+        "internal_id": 2,
+        "path": "videos/Blue_Sky_and_Clouds_Timelapse_0892__Videvo.mov",
+        "title": "Sky and Clouds",
+        "submit_user": "Rob Eagle",
+        "submit_date": "11/21/2021",
+        "tags": ["Road", "Vehicle"],
+        "num_ratings" : 11,
+        "avg_rating": 4.05
+      },
+      {
+        "internal_id": 3,
+        "path": "videos/mixkit-aerial-panorama-of-a-landscape-with-mountains-and-a-lake-42491.mp4",
+        "title": "Mountain and Lake",
+        "submit_user": "Anthony Marcus",
+        "submit_date": "11/01/2021",
+        "tags": ["Spill", "PPE"],
+        "num_ratings" : 19,
+        "avg_rating": 4.33
+      },
+      {
+        "internal_id": 4,
+        "path": "videos/mixkit-traveling-on-the-highway-on-a-sunny-day-42368.mp4",
+        "title": "Sunny Highway",
+        "submit_user": "Nathan Tanner",
+        "submit_date": "02/22/2022",
+        "tags": ["Eqil.", "OSHA"],
+        "num_ratings" : 2,
+        "avg_rating": 2.00
+      }
+    ]
+  }

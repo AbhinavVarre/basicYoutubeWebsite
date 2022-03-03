@@ -1,32 +1,18 @@
-function App() {
-    const mystyle = {
-      alignItems: "center",
+import styles from './teststyle.module.css'
 
-    };
-  function something()
-  {
-    return (
-      <div>
-        something
-      </div>
-    )
-  }
+function App() {
   return (
     <>
       <h1 style={{textAlign: "center"}}>Safety Videos</h1>
-      <div>
-        <div>
-          <button class = "all-videos" type = "button">All Videos</button>
-          <br></br>
-          <button class = "my-videos" type = "button">My Videos</button>
+      <div style={{float: "left"}}>
+            <ul> 
+                <li><a href="" className={styles.active}>My Videos</a></li>
+                <li><a href="">All Videos</a></li>
+            </ul>
         </div>
-      <div style = {{display: "flex", justifyContent: "center"}}>
-          <svg width="710" height="710">
-            <rect style = {{color: "red"}} width="600" height="600"/>
-          </svg>
+      <div  className={styles.center} style = {{display: "flex", justifyContent: "center"}}>
+        <svg height="600"></svg>
       </div>
-      </div>
-     
     </>
   )
 }

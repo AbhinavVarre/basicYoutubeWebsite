@@ -1,7 +1,7 @@
 {
     "videos": [
       {
-        "internal_id": 1,
+        "id": 1,
         "path": "videos/190828_27_SuperTrees_HD_17.mp4",
         "title": "Nice Trees",
         "submit_user": "Jay Ramineni",
@@ -11,7 +11,7 @@
         "avg_rating": 4.43
       },
       {
-        "internal_id": 2,
+        "id": 2,
         "path": "videos/Blue_Sky_and_Clouds_Timelapse_0892__Videvo.mov",
         "title": "Sky and Clouds",
         "submit_user": "Rob Eagle",
@@ -21,7 +21,7 @@
         "avg_rating": 4.05
       },
       {
-        "internal_id": 3,
+        "id": 3,
         "path": "videos/mixkit-aerial-panorama-of-a-landscape-with-mountains-and-a-lake-42491.mp4",
         "title": "Mountain and Lake",
         "submit_user": "Anthony Marcus",
@@ -31,7 +31,7 @@
         "avg_rating": 4.33
       },
       {
-        "internal_id": 4,
+        "id": 4,
         "path": "videos/mixkit-traveling-on-the-highway-on-a-sunny-day-42368.mp4",
         "title": "Sunny Highway",
         "submit_user": "Nathan Tanner",

@@ -1,11 +1,9 @@
 import React from 'react'
+import Home from "./Home";
 import styles from './teststyle.module.css'
 import {
     BrowserRouter as Router,
     Link,
-    Route,
-    Routes,
-    NavLink
   } from "react-router-dom";
 
 export default function MyVideos() {
@@ -22,17 +20,17 @@ export default function MyVideos() {
                         </li>
 
                         <li>
-                        <Link to  = '/AllVideos'>                        
+                        <Link to  = '/'>                        
                                 <a>All Videos</a>
                           </Link>     
                         </li>
                             
                   </ul>
               </div>
-            <div  className={styles.center} style = {{display: "flex", justifyContent: "center"}}>
-              <svg height="600">
-                
-              </svg>
+            <div  className={styles.center} style = {{ display: "flex", justifyContent: "center"}}>
+              <div className={styles.content}>
+                <Home/>
+              </div>
             </div>
     </div>
   )

@@ -17,7 +17,7 @@ function AllVideos() {
             </li>
 
             <li>
-            <Link to  = '/AllVideos' className={styles.active}>                        
+            <Link to  = '/' className={styles.active}>                        
               <a >All Videos</a>
             </Link>
             </li>
@@ -26,7 +26,7 @@ function AllVideos() {
           </ul>
         </div>
       <div className={styles.center} style={{ display: "flex", justifyContent: "center" }}>
-        <svg height="600"></svg>
+      
       </div>
     </>
   )

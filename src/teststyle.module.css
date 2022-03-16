@@ -2,13 +2,18 @@
     margin: auto;
     width: 80vw;
     height: 80vh;
-    border: 3px solid black;
+    border: 3px solid black;  
+  }
 
+  .button {
+    margin: 4px 2px;
+    width: 10vw;
+    height: 5vh;
+    cursor: pointer;
   }
 
   .content {
-    height: 80vh;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
   p.clear {
     clear: left;
